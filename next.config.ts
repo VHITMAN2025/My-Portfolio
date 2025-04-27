@@ -1,7 +1,6 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -13,6 +12,18 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'picsum.photos',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.instagram.com',
+        port: '',
+        pathname: '/p/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.flaticon.com',
         port: '',
         pathname: '/**',
       },
