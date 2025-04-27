@@ -43,7 +43,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
             src="/images/profile.jpeg" // Placeholder image - Replace with actual path if needed
             alt="Vijay Raj"
             width={500} // Increased width
-            height={500} // Increased height
+            height={1000} // Increased height
             className="rounded-full shadow-xl border-4 border-card z-10 transition-transform duration-500 group-hover:scale-105 object-cover" // Ensure it covers the area circularly
             priority // Prioritize loading the hero image
           />
