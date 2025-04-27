@@ -12,7 +12,7 @@ interface ProjectsSectionProps {
 // Placeholder projects - Replace with actual project data
 const projectsData = [
   {
-    title: 'Wheel ways', // Changed title here
+    title: 'Wheel ways (HCL Tech)', // Changed title here
     description: 'Internal mobile application for employees to request company vehicles. Features secure login, request tracking, and inventory management.',
     imageUrl: 'https://picsum.photos/seed/project1/600/400',
     tags: ['Mobile App', 'Internal Tool', 'UI/UX', 'Backend Integration'],
