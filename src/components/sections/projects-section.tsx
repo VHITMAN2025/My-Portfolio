@@ -35,6 +35,14 @@ const projectsData = [
     githubUrl: '#', // Add GitHub link if public
     liveUrl: '/', // Link to the current site
   },
+  {
+    title: 'Voteshield',
+    description: 'Our project is an AI-powered mobile app designed to simplify and secure voter verification at polling booths. It automates government ID recognition, quickly checks voter eligibility, updates their status in real time, and prevents double voting. By integrating features like organized voter lists and strong authentication measures, the app reduces wait times, eliminates human errors, and enhances transparency. Built on cutting-edge technologies like Flutter SDK, Firebase, and AI-based OCR, it offers a faster, safer, and more efficient voting experience',
+    imageUrl: 'https://picsum.photos/seed/project4/600/400',
+    tags: ["Flutter", "ML Kit", "Firebase", "Dart"],
+    githubUrl: '#', // Add actual GitHub link if available
+    liveUrl: null, // Add live demo link if available
+  }
 ];
 
 const ProjectsSection: React.FC<ProjectsSectionProps> = ({ id }) => {
