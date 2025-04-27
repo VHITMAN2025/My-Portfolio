@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle, Cpu, Database, Award, BrainCircuit, Briefcase } from 'lucide-react'; // Added relevant icons
+import Link from 'next/link'; // Import Link
 
 interface SkillsSectionProps {
   id: string;
@@ -17,7 +18,7 @@ const skillsData = {
 const certificationsData = [
   { name: 'TCS ION Career edge - Young Professional', icon: Award },
   { name: 'Data Science & Analysis', icon: Award }, // Changed name here
-  { name: 'Six Sigma White Belt', icon: Award },
+  { name: 'Six Sigma White Belt', icon: Award, href: 'https://drive.google.com/file/d/18RHGanhz60VMRzlPs8OUonalhZT0gYhx/view?usp=drive_link' }, // Added href
   { name: 'AWS APAC - Solutions Architecture Job Simulation', icon: Award },
 ];
 
@@ -52,10 +53,19 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ id }) => {
           <h3 className="text-2xl font-semibold text-center mb-8 text-primary">Certifications</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
              {certificationsData.map((cert) => (
-              <Card key={cert.name} className="text-center p-4 hover:shadow-md transition-shadow duration-300 flex flex-col items-center">
-                <cert.icon className="h-8 w-8 text-accent mb-2" />
-                <p className="text-sm font-medium text-foreground">{cert.name}</p>
-              </Card>
+               cert.href ? (
+                 <Link key={cert.name} href={cert.href} target="_blank" rel="noopener noreferrer" className="block">
+                   <Card className="text-center p-4 h-full hover:shadow-md transition-shadow duration-300 flex flex-col items-center justify-center">
+                     <cert.icon className="h-8 w-8 text-accent mb-2" />
+                     <p className="text-sm font-medium text-foreground">{cert.name}</p>
+                   </Card>
+                 </Link>
+               ) : (
+                 <Card key={cert.name} className="text-center p-4 h-full hover:shadow-md transition-shadow duration-300 flex flex-col items-center justify-center">
+                   <cert.icon className="h-8 w-8 text-accent mb-2" />
+                   <p className="text-sm font-medium text-foreground">{cert.name}</p>
+                 </Card>
+               )
             ))}
           </div>
         </div>
