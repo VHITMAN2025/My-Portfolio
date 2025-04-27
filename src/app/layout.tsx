@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'Vijay Raj Portfolio',
   description: 'Portfolio of Vijay Raj - Aspiring Developer | AI/ML Intern | Future Innovator',
   icons: {
-    icon: '/images/profile.jpeg', // Updated favicon path
+    icon: '/images/profile.jpeg', // Updated favicon path to point to image in public/images
   },
 };
 
