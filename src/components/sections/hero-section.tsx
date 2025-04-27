@@ -43,7 +43,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
             alt="Vijay Raj"
             width={450} // Increased width
             height={450} // Increased height
-            className="rounded-full shadow-xl border-4 border-card z-10 transition-transform duration-500 group-hover:scale-105"
+            className="rounded-full shadow-xl border-4 border-card z-10 transition-transform duration-500 group-hover:scale-105 object-cover" // Ensure it covers the area circularly
             priority // Prioritize loading the hero image
           />
         </div>
