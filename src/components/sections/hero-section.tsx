@@ -17,7 +17,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
             Vijay Raj
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-medium">
-            Aspiring Developer | Agile Learner | AI/ML Intern | Future Innovator
+            Aspiring Developer · Agile Learner · AI/ML Intern · Future Innovator
           </p>
           <p className="text-base md:text-lg text-foreground leading-relaxed">
             I am a dedicated BTech Computer Science student at MVGR Engineering College with a strong focus on Data Science. As a tech enthusiast and continuous learner, I not only explore Artificial Intelligence and Machine Learning but actively learn and implement them to create impactful solutions. With hands-on experience as an App and Web developer, I have developed applications across both native and cross-platform technologies, showcasing adaptability and innovative problem-solving skills. Additionally, my expertise includes project management and a commitment to addressing real-world challenges with technological excellence. With a passion for knowledge and a drive for innovation, I aim to contribute to projects that redefine the future of technology.
