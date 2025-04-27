@@ -24,8 +24,8 @@ const projectsData = [
     description: 'A comprehensive web platform designed to streamline access to academic resources. Faculty members can upload study materials (PDFs) categorized by regulation, branch, and semester into a secure database. Students can easily log in with their credentials to access the materials they need for their studies. This platform ensures organized and efficient distribution of educational content, enhancing the learning experience for all users.',
     imageUrl: '/images/StudyMate.png', // New placeholder image
     tags: ['Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'JavaScript'], // Updated tags
-    githubUrl: '#', // Add actual GitHub link if available
-    liveUrl: '#', // Add live demo link if available
+    githubUrl: 'https://github.com/VHITMAN2025/StudyMate', // Add actual GitHub link if available
+    liveUrl: 'https://project-062r.onrender.com/', // Add live demo link if available
   },
    {
     title: 'Personal Portfolio Website',

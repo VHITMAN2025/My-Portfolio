@@ -29,11 +29,13 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
                 <ArrowDown className="ml-2 h-5 w-5 transform group-hover:rotate-[-45deg] transition-transform" />
               </Button>
             </Link>
-            {/* Add a placeholder link for Resume download */}
-            <Button size="lg" variant="outline" className="w-full sm:w-auto group transition-transform hover:-translate-y-1" disabled>
-              Download Resume
-              <Download className="ml-2 h-5 w-5 group-hover:animate-bounce" />
-            </Button>
+            {/* Link the button to the resume file and enable download */}
+            <a href="/Vijay_Raj_Resume.pdf" download="Vijay_Raj_Resume.pdf">
+              <Button size="lg" variant="outline" className="w-full sm:w-auto group transition-transform hover:-translate-y-1">
+                Download Resume
+                <Download className="ml-2 h-5 w-5 group-hover:animate-bounce" />
+              </Button>
+            </a>
           </div>
         </div>
         <div className="flex justify-center items-center relative group">
@@ -44,7 +46,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
             alt="Vijay Raj"
             width={500} // Increased width
             height={1000} // Increased height
-            className="rounded-full shadow-xl border-4 border-card z-10 transition-transform duration-500 group-hover:scale-105 object-cover" // Ensure it covers the area circularly
+            className="rounded-full shadow-xl border-4 border-card z-10 transition-transform duration-500 group-hover:scale-105 object-cover aspect-square" // Ensure it covers the area circularly and maintain aspect ratio
             priority // Prioritize loading the hero image
           />
         </div>
