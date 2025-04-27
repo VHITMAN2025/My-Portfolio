@@ -15,7 +15,7 @@ const projectsData = [
     title: 'Wheel ways (HCL Tech)',
     description: 'Internal mobile application for employees to request company vehicles. Features secure login, request tracking, and inventory management.',
     imageUrl: 'https://picsum.photos/seed/project1/600/400',
-    tags: ['Mobile App', 'Internal Tool', 'UI/UX', 'Backend Integration'],
+    tags: ['Android Studio', 'Java', 'Firebase', 'XML'], // Updated tags
     githubUrl: '#', // Add actual GitHub link if available
     liveUrl: null, // Add live demo link if available
   },
@@ -23,7 +23,7 @@ const projectsData = [
     title: 'Study Mate', // Updated project title
     description: 'A comprehensive web platform designed to streamline access to academic resources. Faculty members can upload study materials (PDFs) categorized by regulation, branch, and semester into a secure database. Students can easily log in with their credentials to access the materials they need for their studies. This platform ensures organized and efficient distribution of educational content, enhancing the learning experience for all users.',
     imageUrl: 'https://picsum.photos/seed/project2/600/400', // New placeholder image
-    tags: ['Web Platform', 'Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'JavaScript'], // Removed 'Academic' tag
+    tags: ['Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'JavaScript'], // Updated tags
     githubUrl: '#', // Add actual GitHub link if available
     liveUrl: '#', // Add live demo link if available
   },
