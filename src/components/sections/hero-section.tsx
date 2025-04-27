@@ -38,11 +38,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
         </div>
         <div className="flex justify-center items-center relative group">
            <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-secondary rounded-full blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
+           {/* Ensure rounded-full is applied for circular image and border */}
            <Image
             src="/images/profile.jpeg" // Placeholder image - Replace with actual path if needed
             alt="Vijay Raj"
-            width={450} // Increased width
-            height={450} // Increased height
+            width={450}
+            height={450}
             className="rounded-full shadow-xl border-4 border-card z-10 transition-transform duration-500 group-hover:scale-105 object-cover" // Ensure it covers the area circularly
             priority // Prioritize loading the hero image
           />

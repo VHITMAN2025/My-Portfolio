@@ -14,7 +14,7 @@ const projectsData = [
   {
     title: 'Wheel ways (HCL Tech)',
     description: 'Internal mobile application for employees to request company vehicles. Features secure login, request tracking, and inventory management.',
-    imageUrl: '/images/voteshield.png', // Corrected path relative to /public
+    imageUrl: '/images/Cycle Image.png', // Corrected path relative to /public
     tags: ['Android Studio', 'Java', 'Firebase', 'XML'], // Updated tags
     githubUrl: '#', // Add actual GitHub link if available
     liveUrl: null, // Add live demo link if available
@@ -22,7 +22,7 @@ const projectsData = [
   {
     title: 'Study Mate', // Updated project title
     description: 'A comprehensive web platform designed to streamline access to academic resources. Faculty members can upload study materials (PDFs) categorized by regulation, branch, and semester into a secure database. Students can easily log in with their credentials to access the materials they need for their studies. This platform ensures organized and efficient distribution of educational content, enhancing the learning experience for all users.',
-    imageUrl: 'https://picsum.photos/id/180/367/267', // New placeholder image
+    imageUrl: '/images/StudyMate.png', // New placeholder image
     tags: ['Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'JavaScript'], // Updated tags
     githubUrl: '#', // Add actual GitHub link if available
     liveUrl: '#', // Add live demo link if available
@@ -30,7 +30,7 @@ const projectsData = [
    {
     title: 'Personal Portfolio Website',
     description: 'This very website! Built with Next.js, Tailwind CSS, and ShadCN UI for a modern, responsive, and animated showcase.',
-    imageUrl: 'https://picsum.photos/seed/project3/600/400',
+    imageUrl: '/images/portfolio.jpg',
     tags: ['Next.js', 'React', 'Tailwind CSS', 'ShadCN UI', 'Web Development'],
     githubUrl: '#', // Add GitHub link if public
     liveUrl: '/', // Link to the current site
@@ -38,7 +38,7 @@ const projectsData = [
   {
     title: 'Voteshield',
     description: 'Our project is an AI-powered mobile app designed to simplify and secure voter verification at polling booths. It automates government ID recognition, quickly checks voter eligibility, updates their status in real time, and prevents double voting. By integrating features like organized voter lists and strong authentication measures, the app reduces wait times, eliminates human errors, and enhances transparency. Built on cutting-edge technologies like Flutter SDK, Firebase, and AI-based OCR, it offers a faster, safer, and more efficient voting experience',
-    imageUrl: 'https://picsum.photos/seed/project4/600/400',
+    imageUrl: '/images/voteshield.png',
     tags: ["Flutter", "ML Kit", "Firebase", "Dart"],
     githubUrl: '#', // Add actual GitHub link if available
     liveUrl: null, // Add live demo link if available
