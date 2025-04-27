@@ -20,7 +20,7 @@ const projectsData = [
     liveUrl: null, // Add live demo link if available
   },
   {
-    title: 'Academic Resource Platform',
+    title: 'Study Mate', // Updated project title
     description: 'A comprehensive web platform designed to streamline access to academic resources. Faculty members can upload study materials (PDFs) categorized by regulation, branch, and semester into a secure database. Students can easily log in with their credentials to access the materials they need for their studies. This platform ensures organized and efficient distribution of educational content, enhancing the learning experience for all users.',
     imageUrl: 'https://picsum.photos/seed/project2/600/400', // New placeholder image
     tags: ['Web Platform', 'Academic', 'Faculty', 'Student', 'Database', 'PDF Management'],
