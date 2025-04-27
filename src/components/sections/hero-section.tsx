@@ -39,10 +39,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
         <div className="flex justify-center items-center relative group">
            <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-secondary rounded-full blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
            <Image
-            src="https://picsum.photos/400/400" // Placeholder image
+            src="/images/profile.jpeg" // Placeholder image - Replace with actual path if needed
             alt="Vijay Raj"
-            width={400}
-            height={400}
+            width={450} // Increased width
+            height={450} // Increased height
             className="rounded-full shadow-xl border-4 border-card z-10 transition-transform duration-500 group-hover:scale-105"
             priority // Prioritize loading the hero image
           />
