@@ -1,18 +1,18 @@
 import type {Metadata} from 'next';
-import { Inter } from 'next/font/google'; // Using Inter as a clean, modern font
+import { Inter } from 'next/font/google';
 import './globals.css';
-import { Toaster } from "@/components/ui/toaster"; // Import Toaster
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-inter', // Define CSS variable for the font
+  variable: '--font-inter',
 });
 
 export const metadata: Metadata = {
   title: 'Vijay Raj Portfolio',
   description: 'Portfolio of Vijay Raj - Aspiring Developer · AI/ML Intern · Future Innovator',
   icons: {
-    icon: '/images/profile.jpeg', // Updated favicon path to point to image in public/images
+    icon: '/images/Favicon_Image.png', // Correct path to your photo for favicon
   },
 };
 
@@ -23,9 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} font-sans`}> {/* Use the font variable */}
+      <body className={`${inter.variable} font-sans`}>
         {children}
-        <Toaster /> {/* Add Toaster here */}
+        <Toaster/>
       </body>
     </html>
   );

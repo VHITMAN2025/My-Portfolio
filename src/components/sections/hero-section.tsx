@@ -14,7 +14,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
       <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary">
-            Vijay Raj
+            Vijay Raj Koruvada
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-medium">
             Aspiring Developer · Agile Learner · AI/ML Intern · Future Innovator

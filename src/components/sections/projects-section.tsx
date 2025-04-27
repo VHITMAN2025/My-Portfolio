@@ -16,7 +16,7 @@ const projectsData = [
     description: 'Internal mobile application for employees to request company vehicles. Features secure login, request tracking, and inventory management.',
     imageUrl: '/images/Cycle Image.png', // Corrected path relative to /public
     tags: ['Android Studio', 'Java', 'Firebase', 'XML'], // Updated tags
-    githubUrl: '#', // Add actual GitHub link if available
+    githubUrl: 'https://github.com/VHITMAN2025/Wheel-Ways', // Add actual GitHub link if available
     liveUrl: null, // Add live demo link if available
   },
   {
@@ -32,7 +32,7 @@ const projectsData = [
     description: 'This very website! Built with Next.js, Tailwind CSS, and ShadCN UI for a modern, responsive, and animated showcase.',
     imageUrl: '/images/portfolio.jpg',
     tags: ['Next.js', 'React', 'Tailwind CSS', 'ShadCN UI', 'Web Development'],
-    githubUrl: '#', // Add GitHub link if public
+    githubUrl: 'https://github.com/VHITMAN2025/My-Portfolio', // Add GitHub link if public
     liveUrl: '/', // Link to the current site
   },
   {
@@ -40,7 +40,7 @@ const projectsData = [
     description: 'Our project is an AI-powered mobile app designed to simplify and secure voter verification at polling booths. It automates government ID recognition, quickly checks voter eligibility, updates their status in real time, and prevents double voting. By integrating features like organized voter lists and strong authentication measures, the app reduces wait times, eliminates human errors, and enhances transparency. Built on cutting-edge technologies like Flutter SDK, Firebase, and AI-based OCR, it offers a faster, safer, and more efficient voting experience',
     imageUrl: '/images/voteshield.png',
     tags: ["Flutter", "ML Kit", "Firebase", "Dart"],
-    githubUrl: '#', // Add actual GitHub link if available
+    githubUrl: 'https://github.com/VHITMAN2025/Solution_Challenge', // Add actual GitHub link if available
     liveUrl: null, // Add live demo link if available
   }
 ];
