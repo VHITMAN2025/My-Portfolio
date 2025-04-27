@@ -16,7 +16,7 @@ const skillsData = {
 
 const certificationsData = [
   { name: 'TCS ION Career edge - Young Professional', icon: Award },
-  { name: 'Data science workshop', icon: Award },
+  { name: 'Data Science & Analysis', icon: Award }, // Changed name here
   { name: 'Six Sigma White Belt', icon: Award },
   { name: 'AWS APAC - Solutions Architecture Job Simulation', icon: Award },
 ];
