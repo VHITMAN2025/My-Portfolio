@@ -9,10 +9,10 @@ interface ProjectsSectionProps {
   id: string;
 }
 
-// Placeholder projects - Replace with actual project data
+// Updated projects data
 const projectsData = [
   {
-    title: 'Wheel ways (HCL Tech)', // Changed title here
+    title: 'Wheel ways (HCL Tech)',
     description: 'Internal mobile application for employees to request company vehicles. Features secure login, request tracking, and inventory management.',
     imageUrl: 'https://picsum.photos/seed/project1/600/400',
     tags: ['Mobile App', 'Internal Tool', 'UI/UX', 'Backend Integration'],
@@ -20,12 +20,12 @@ const projectsData = [
     liveUrl: null, // Add live demo link if available
   },
   {
-    title: 'Data Science Portfolio Project',
-    description: 'A comprehensive project showcasing data analysis, visualization, and machine learning model implementation on a real-world dataset.',
-    imageUrl: 'https://picsum.photos/seed/project2/600/400',
-    tags: ['Data Science', 'Python', 'Pandas', 'Scikit-learn', 'Matplotlib'],
-    githubUrl: '#', // Add actual GitHub link
-    liveUrl: '#', // Add live demo link
+    title: 'Academic Resource Platform',
+    description: 'A comprehensive web platform designed to streamline access to academic resources. Faculty members can upload study materials (PDFs) categorized by regulation, branch, and semester into a secure database. Students can easily log in with their credentials to access the materials they need for their studies. This platform ensures organized and efficient distribution of educational content, enhancing the learning experience for all users.',
+    imageUrl: 'https://picsum.photos/seed/project2/600/400', // New placeholder image
+    tags: ['Web Platform', 'Academic', 'Faculty', 'Student', 'Database', 'PDF Management'],
+    githubUrl: '#', // Add actual GitHub link if available
+    liveUrl: '#', // Add live demo link if available
   },
    {
     title: 'Personal Portfolio Website',
@@ -48,7 +48,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ id }) => {
               <div className="relative h-48 w-full overflow-hidden">
                  <Image
                     src={project.imageUrl}
-                    alt={project.title} // Alt text automatically reflects the updated title
+                    alt={project.title}
                     fill // Use fill for responsive images within a sized container
                     style={{ objectFit: 'cover' }} // Ensure image covers the area
                     className="transition-transform duration-500 group-hover:scale-110"
@@ -76,9 +76,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ id }) => {
                   </Link>
                 )}
                  {project.liveUrl && (
-                   <Link href={project.liveUrl} target={project.liveUrl.startsWith('http') ? '_blank' : '_self'} rel="noopener noreferrer">
+                   <Link href={project.liveUrl} target={project.liveUrl.startsWith('http') || project.liveUrl.startsWith('/') ? '_blank' : '_self'} rel="noopener noreferrer">
                      <Button variant="default" size="sm">
-                       <ExternalLink className="mr-1 h-4 w-4" /> {project.liveUrl.startsWith('http') ? 'Live Demo' : 'View'}
+                       <ExternalLink className="mr-1 h-4 w-4" /> {project.liveUrl.startsWith('http') || project.liveUrl.startsWith('/') ? 'Live Demo' : 'View'}
                      </Button>
                    </Link>
                  )}
