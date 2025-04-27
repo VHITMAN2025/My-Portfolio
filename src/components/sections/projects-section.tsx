@@ -12,7 +12,7 @@ interface ProjectsSectionProps {
 // Placeholder projects - Replace with actual project data
 const projectsData = [
   {
-    title: 'Transport Request App (HCLTech)',
+    title: 'Wheel ways', // Changed title here
     description: 'Internal mobile application for employees to request company vehicles. Features secure login, request tracking, and inventory management.',
     imageUrl: 'https://picsum.photos/seed/project1/600/400',
     tags: ['Mobile App', 'Internal Tool', 'UI/UX', 'Backend Integration'],
@@ -48,7 +48,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ id }) => {
               <div className="relative h-48 w-full overflow-hidden">
                  <Image
                     src={project.imageUrl}
-                    alt={project.title}
+                    alt={project.title} // Alt text automatically reflects the updated title
                     fill // Use fill for responsive images within a sized container
                     style={{ objectFit: 'cover' }} // Ensure image covers the area
                     className="transition-transform duration-500 group-hover:scale-110"
