@@ -17,7 +17,7 @@ const skillsData = {
 
 const certificationsData = [
   { name: 'TCS ION Career edge - Young Professional', icon: Award, href: 'https://drive.google.com/file/d/1hDlZl93AAKlVZSXyiVtcVJHIIhGEsMti/view?usp=drive_link' }, // Added href for TCS cert
-  { name: 'Data Science & Analysis', icon: Award }, // Changed name here
+  { name: 'Data Science & Analysis', icon: Award ,href: "https://drive.google.com/file/d/1NrubcHfTgjHOzartN-W20xmrqi16lC5d/view?usp=sharing"}, // Changed name here
   { name: 'Six Sigma White Belt', icon: Award, href: 'https://drive.google.com/file/d/1Pt5fSdUIyrAk13PT64PdKcYzhDtGoZNw/view?usp=drive_link' }, // Added href
   { name: 'AWS APAC - Solutions Architecture Job Simulation', icon: Award, href: 'https://drive.google.com/file/d/1lLsr-ah0rSL_xbQOAxzhTfKOgz9bDvZF/view?usp=drive_link' }, // Added href for AWS cert
 ];
